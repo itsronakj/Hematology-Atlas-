@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa" dir="rtl">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hematology Atlas — Imam Ali Hospital</title>
+  <title>اطلس هماتولوژی — بیمارستان امام علی</title>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet">
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
     body {
-      font-family: 'Georgia', serif;
+      font-family: 'Vazirmatn', sans-serif;
       background: #f7f7f5;
       color: #1a1a1a;
       min-height: 100vh;
@@ -18,6 +19,7 @@
       padding: 36px 24px 24px;
       border-bottom: 1px solid #ddd;
       background: #fff;
+      text-align: right;
     }
     header h1 {
       font-size: 1.1rem;
@@ -95,7 +97,7 @@
       letter-spacing: 0.05em;
     }
 
-    .card .info { padding: 12px 14px 14px; }
+    .card .info { padding: 12px 14px 14px; text-align: right; direction: rtl; }
     .card .title {
       font-size: 0.85rem;
       font-weight: bold;
@@ -169,6 +171,8 @@
       width: 100%;
       max-width: 600px;
       margin-top: 20px;
+      text-align: right;
+      direction: rtl;
     }
     .lb-title {
       font-size: 1rem;
@@ -195,12 +199,12 @@
 <body>
 
 <header>
-  <h1>Hematology Atlas</h1>
-  <p>Imam Ali Hospital</p>
+  <h1>اطلس هماتولوژی</h1>
+  <p>بیمارستان امام علی</p>
 </header>
 
 <div class="search-bar">
-  <input type="text" id="search" placeholder="Search slides..." autocomplete="off" />
+  <input type="text" id="search" placeholder="جستجو..." autocomplete="off" />
   <div id="count"></div>
 </div>
 
@@ -224,12 +228,12 @@
     {
       title: "Spherocyte — اسفروسیت",
       desc: "گلبول قرمز گرد و متراکم فاقد ناحیه رنگ‌پریدگی مرکزی (Central Pallor).\nMCHC معمولاً افزایش می‌یابد.\n\nدیده می‌شود در:\n• Hereditary Spherocytosis\n• Autoimmune Hemolytic Anemia (AIHA)",
-      img: "images/spherocyte.jpg"
+      img: "images/1000119247.jpg"
     },
     {
       title: "Target Cell — سلول تارگت",
       desc: "ظاهر شبیه هدف تیراندازی با حلقه رنگی، هاله رنگ‌پریده و نقطه مرکزی.\nافزایش نسبت سطح به حجم سلول.\n\nدیده می‌شود در:\n• Beta Thalassemia\n• بیماری‌های کبدی\n• پس از اسپلنکتومی",
-      img: "images/target_cell.jpg"
+      img: "images/1000119248.jpg"
     },
   ];
   // =====================
